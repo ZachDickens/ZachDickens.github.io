@@ -1,18 +1,27 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
+
+
 
 html{
     font-size: 16px;
-    margin-top: 3em;
 }
 
 h1, h2, h3{
-    color: #666;
+    color: #333;
+}
+
+body{
+margin: 0;
+background-image: url("https://images.pexels.com/photos/258112/pexels-photo-258112.jpeg?cs=srgb&dl=arctic-aurora-aurora-borealis-258112.jpg&fm=jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
 }
 
 header,
@@ -24,6 +33,7 @@ footer{
 
 header{
     padding: 2em 0;
+    
 }
 header h1{
     font-size: 3em;
@@ -50,9 +60,10 @@ nav a{
     padding: .5em 2em;
     text-decoration: none;
     color: #fff;
+
 }
 nav a:hover{
-    background: 666;
+    background: #666;
 }
 
 section{
@@ -69,19 +80,24 @@ section ul{
     padding-left: 1.5em;
 }
 
-#products{
-    display: grid;
+#projects{
+    /*display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 1em;
+    grid-column-gap: 1em;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
-#products article{
+#projects article{
     background: #ccc;
     padding: 1em;
 }
 
-#products article img{
+#projects article img{
    width: 100%;
    border: 1px solid #333;
  
