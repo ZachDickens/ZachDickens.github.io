@@ -30,7 +30,7 @@ h3 {
 
 body {
     margin: 0;
-    background-image: url("https://images.pexels.com/photos/1885501/pexels-photo-1885501.jpeg?cs=srgb&dl=close-up-colors-dark-1885501.jpg&fm=jpg");
+    background-image: url("https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?cs=srgb&dl=black-and-white-computer-display-220357.jpg&fm=jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -84,10 +84,15 @@ nav a:hover {
 }
 
 section {
-    margin: 1em 0;
-    padding-top: 3em;
-    min-height: 20em;
-    color: white;
+    margin: 2em 0;
+    padding: 2em 1em 1em 1em;
+    min-height: 15em;
+    color:#000;
+    background-color: rgba(95, 158, 160, .9);
+    width: 80vw;
+    border-radius: 20px;
+    box-shadow: -5px 5px 16px 0px white;
+    
 }
 
 section>p {
@@ -99,17 +104,28 @@ section ul {
 }
 
 #projects-h2 {
-    margin-top: 3rem;
-    margin-bottom: 0;
+
+    /*padding-top: 3rem;
+    margin-bottom: 0;*/
 }
 
 #projects {
-    color: #e6e6e6;
+    /*color: #000;*/
+    /*display: flex;*/
+    /*flex-direction: row;
+    justify-content: space-around;
+    align-self: stretch;
+    margin-top: -3rem;
+    background-color: rgba(95, 158, 160, .9);*/
+
+}
+
+.cardSection{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-self: stretch;
-    margin-top: -3rem;
+    
 }
 
 #projects article {
@@ -123,12 +139,14 @@ section ul {
 }
 
 #aboutMe {
-    color: #e6e6e6;
+    /*color: #000;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    
 }
 
 #getInTouch {
@@ -136,7 +154,9 @@ section ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    /*color: #000;*/
+    background-color: rgba(95, 158, 160, .9);
+
 }
 
 footer {
