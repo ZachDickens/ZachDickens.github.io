@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>My Personal Portfolio - Zach Dickens</title>
-<link rel="stylesheet" type="text/css" href="./style.css">
+    
     <head>    
+        <title>My Personal Portfolio - Zach Dickens</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <meta charset="UTF-8" />    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>  
     <body>
+            <div class="topNavHamburger" id="navHamburger">
+                    <a href="#aboutMe" class="active">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#getInTouch">Get in Touch</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+            </div>
 
-        <header>
+        <div>
         <h1>Zach Dickens</h1>
         <span>Software Developer Apprentice</span>
-        </header>   
+        </div>   
     
         <main>
             <section id="aboutMe">
@@ -87,31 +96,7 @@
 
 
 
-            <section id="projects">
-                
-                <h2 id="projects-h2">Projects</h2>
-                <li>
-                <div class="cardSection"><div class="project-card">
-                <p>Virtual Pets Amok</p>
-                <p>C# Console Application</p>
-                <a href="https://github.com/Bpjd21/Pets_Amok"><img src="./images/Pets_Amok_Alternate_Picture.JPG" style="width: 150px" height="200px"></a>
-                </div>
-                
-
             
-                <div class="project-card">
-                <p>Car Garage</p>
-                <p>C# Console Application</p>
-                <a href="https://github.com/ZachDickens/CarGarage"><img src="./images/CarGarage.JPG" width="150px" height="200px"></a>
-                </div>
-                
-                
-                
-                <div class="project-card">
-                <p>Personal Portfolio</p>
-                <p>HTML/CSS Webpage</p>
-                <a href="https://github.com/ZachDickens/ZachDickens.github.io"><img src="./images/Personal Portfolio.JPG" width="150px" height="200px"></a>
-                </div></div>
                 
                 
                 
@@ -126,11 +111,7 @@
             </section>
         </main>
 
-        <nav>
-            <a href="#aboutMe">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#getInTouch">Get in Touch</a>
-        </nav>
+       
 
         <footer>
             <a href="https://www.linkedin.com/in/zach-dickens-426842169/"><img src ="images/Logo-2C-28px-TM.png" alt="LinkedIn Profile Link" /></a> 

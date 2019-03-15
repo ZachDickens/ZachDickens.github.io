@@ -39,3 +39,12 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+function myFunction() {
+  var x = document.getElementById("navHamburger");
+  if (x.className === "topNavHamburger") {
+    x.className += " responsive";
+  } else {
+    x.className = "topNavHamburger";
+  }
+}
