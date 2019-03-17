@@ -67,7 +67,7 @@ header span {
 section {
     margin: 2em 0;
     padding: 2em 1em 1em 1em;
-    min-height: 15em;
+    /* min-height: 15em; */
     color:#000;
     background-color: rgba(95, 158, 160, .9);
     width: 80vw;
@@ -109,7 +109,12 @@ section ul {
     
 }
 
-
+#myBtnBackground{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  
+} 
 
 #aboutMe {
     display: flex;
@@ -274,6 +279,11 @@ footer {
 .topNavHamburger {
   background-color: #333;
   overflow: hidden;
+  display: flex;
+  
+}
+.icon{
+  margin-left: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -399,11 +409,16 @@ footer {
 }
 #myBtn{
   margin-bottom: 0.5rem;
+  width: 100px;
 
 }
 
 .collapsibleDivContainer{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.headerH1{
+  display: flex;
   justify-content: center;
 }
