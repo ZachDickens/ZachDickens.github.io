@@ -1,4 +1,4 @@
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -10,9 +10,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
     if (n > slides.length) { slideIndex = 1 }
     if (n < 1) { slideIndex = slides.length }
     for (i = 0; i < slides.length; i++) {
@@ -25,13 +25,13 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
+let coll = document.getElementsByClassName("collapsible");
+let i;
 
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         this.classList.toggle("activeBtn");
-        var content = this.nextElementSibling;
+        let content = this.nextElementSibling;
         if (content.style.display === "block") {
             content.style.display = "none";
         } else {
@@ -41,7 +41,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 function myFunction() {
-    var x = document.getElementById("navHamburger");
+    let x = document.getElementById("navHamburger");
     if (x.className === "topNavHamburger") {
         x.className += " responsive";
     } else {
@@ -49,11 +49,11 @@ function myFunction() {
     }
 }
 
-var modal = document.getElementById('myModal');
+let modal = document.getElementById('myModal');
 
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("myBtn");
 
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
     modal.style.display = "block";
