@@ -1,139 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>    
-        <title>My Personal Portfolio - Zach Dickens</title>
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <meta charset="UTF-8" />    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </head>  
-    <body>
-            <div class="topNavHamburger" id="navHamburger">
-                    <a href="#aboutMe" class="active display">About Me</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#getInTouch">Get in Touch</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                    </a>
-            </div>
+<head>
+    <title>My Personal Portfolio - Zach Dickens</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <div class="headerH1">
+</head>
+
+<body>
+    <div class="topNavHamburger" id="navHamburger">
+        <a href="#aboutMe" class="active display">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#getInTouch">Get in Touch</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="headerH1">
         <h1>Zach Dickens <br>Software Developer Apprentice</h1>
-        
-        
-        </div>   
-    
-        <main>
-            <section id="aboutMe">
-                <h2>About Me</h2>
-                <img src="./images/Updated LinkedIn Profile Picture.jpg" alt="Profile" class="center">
-                <p>Hello, I am Zach. I love technology and I am currently enrolled at We Can Code IT Cleveland. <br>Here I am learning to be a full stack software developer. I am excited to begin my career as a software developer.</p> 
-            </section>
-            
-<section id="myBtnBackground">          
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Skills</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Tech Stack: C# • .NET • Active Server Pages / ASP.net • JavaScript • JQuery • Flexbox • MVC • HTML5 • CSS3 • Grid • Bootstrap • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub</p>
-  </div>
+    </div>
 
-</div>
-</section>
+    <main>
+        <section id="aboutMe">
+            <h2>About Me</h2>
+            <img src="./images/Updated LinkedIn Profile Picture.jpg" alt="Profile" class="center">
+            <p>Hello, I am Zach. I love technology and I am currently enrolled at We Can Code IT Cleveland. <br>Here I am learning to be a full stack software developer. I am excited to begin my career as a software developer.</p>
+        </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  
- 
+        <section id="myBtnBackground">
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Skills</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Tech Stack: C# • .NET • Active Server Pages / ASP.net • JavaScript • JQuery • Flexbox • MVC • HTML5 • CSS3 • Grid • Bootstrap • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design
+                        / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+
 
 
             <div class="slideshow-container">
 
-                    <div class="mySlides fade">
-                      <div class="numbertext">1 / 3</div>
-                      <a href="https://github.com/Bpjd21/Pets_Amok"><img src="images/Pets_Amok_New_Updated.jpg" style="width:100%"></a>
-                      <div class="text">Pets_Amok Project</div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext">2 / 3</div>
-                      <a href="https://github.com/ZachDickens/CarGarage"><img src="images/CarGarage.JPG" style="width:100%"></a>
-                      <div class="text">Car Garage Project</div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext">3 / 3</div>
-                      <a href="https://github.com/ZachDickens/ZachDickens.github.io"><img src="images/Personal Portfolio.JPG" style="width:100%"></a>
-                      <div class="text">Personal Portfolio Project</div>
-                    </div>
-                    
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    
-                    </div>
-                    <br>
-                    
-                    <div style="text-align:center">
-                      <span class="dot" onclick="currentSlide(1)"></span> 
-                      <span class="dot" onclick="currentSlide(2)"></span> 
-                      <span class="dot" onclick="currentSlide(3)"></span> 
-                    </div>
-                  </section>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <a href="https://github.com/Bpjd21/Pets_Amok"><img src="images/Pets_Amok_New_Updated.jpg" style="width:100%"></a>
+                    <div class="text">Pets_Amok Project</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <a href="https://github.com/ZachDickens/CarGarage"><img src="images/CarGarage.JPG" style="width:100%"></a>
+                    <div class="text">Car Garage Project</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <a href="https://github.com/ZachDickens/ZachDickens.github.io"><img src="images/Personal Portfolio.JPG" style="width:100%"></a>
+                    <div class="text">Personal Portfolio Project</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
 
 
 
 
-                    <div class="collapsibleDivContainer">
-                    <button class="collapsible">Pets_Amok Project</button>
-                    <div class="content">
-                    <p>This is a C# Console Application.</p>
-                    
-                    </div>
+        <div class="collapsibleDivContainer">
+            <button class="collapsible">Pets_Amok Project</button>
+            <div class="content">
+                <p>This is a C# Console Application.</p>
 
-                    <button class="collapsible">Car Garage</button>
-                    <div class="content">
-                    <p>This is a C# Console Application.</p>
-                    
-                    </div>
+            </div>
 
-                    <button class="collapsible">Personal Portfolio</button>
-                    <div class="content">
-                    <p>This is my personal Portfolio which was made and styled by using HTML, CSS, and JavaScript.</p>
-                    
-                    </div>
-                    </div>
-                  
+            <button class="collapsible">Car Garage</button>
+            <div class="content">
+                <p>This is a C# Console Application.</p>
+
+            </div>
+
+            <button class="collapsible">Personal Portfolio</button>
+            <div class="content">
+                <p>This is my personal Portfolio which was made and styled by using HTML, CSS, and JavaScript.</p>
+
+            </div>
+        </div>
 
 
-            
-                
-                
-                
-            </section>
-            <section id="getInTouch">
-                <h2>Get in Touch</h2>
-                <p>I would be happy to get in touch! <br>My contact information is below.</p>
-                <ul>
-                    <li>Email: dickens.52@buckeyemail.osu.edu</li>
-                    <li>Phone: (330)-704-7575</li>
-                </ul>   
-            </section>
-        </main>
 
-       
 
-        <footer>
-            <a href="https://www.linkedin.com/in/zach-dickens-426842169/"><img src ="images/Logo-2C-28px-TM.png" alt="LinkedIn Profile Link" /></a> 
-            &copy; Dickens Inc. 2019
-            <a href="https://github.com/ZachDickens"><img src="./images/GitHub_Logo.png" alt="Github Account Link" style="width:100px" /></a>               
-        </footer>
-        <script src="app.js"></script>
-    </body>
+
+
+
+        </section>
+        <section id="getInTouch">
+            <h2>Get in Touch</h2>
+            <p>I would be happy to get in touch! <br>My contact information is below.</p>
+            <ul>
+                <li>Email: dickens.52@buckeyemail.osu.edu</li>
+                <li>Phone: (330)-704-7575</li>
+            </ul>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <a href="https://www.linkedin.com/in/zach-dickens-426842169/"><img src="images/Logo-2C-28px-TM.png" alt="LinkedIn Profile Link" /></a>
+        &copy; Dickens Inc. 2019
+        <a href="https://github.com/ZachDickens"><img src="./images/GitHub_Logo.png" alt="Github Account Link" style="width:100px" /></a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
 </html>
